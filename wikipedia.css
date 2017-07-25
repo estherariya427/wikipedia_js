@@ -1,0 +1,53 @@
+body {
+  background: #708090;
+}
+
+.container {
+  margin: 50px auto;
+}
+
+.box {
+  margin: auto ;
+  height: 50px;
+}
+
+h1#heading {
+  margin: 150px auto 50px auto;
+  font-size: 45px;
+  color: #F0FFFF;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+p {
+  font-size: 16px;
+}
+a:hover {
+  text-decoration: underline;
+}
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 15px 12px 20px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 50%;
+}
+
+button[type=button] {
+  height: 50px;
+  width: 50px;
+}
